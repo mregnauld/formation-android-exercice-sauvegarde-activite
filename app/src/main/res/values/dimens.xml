@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Main -->
+	<dimen name="main_cote_de">80dp</dimen>
+	<dimen name="main_taille_texte_de">48sp</dimen>
+	<dimen name="main_marge_de">8dp</dimen>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.formationandroid.sauvegardeactivite.MainActivity">
+
+	<TextView
+		android:id="@+id/de_1"
+		style="@style/De"
+		app:layout_constraintBottom_toTopOf="@+id/de_2"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_chainStyle="packed"
+		tools:text="4"/>
+
+	<TextView
+		android:id="@+id/de_2"
+		style="@style/De"
+		app:layout_constraintBottom_toTopOf="@+id/de_3"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/de_1"
+		tools:text="2"/>
+
+	<TextView
+		android:id="@+id/de_3"
+		style="@style/De"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/de_2"
+		tools:text="1"/>
+
+</android.support.constraint.ConstraintLayout>
